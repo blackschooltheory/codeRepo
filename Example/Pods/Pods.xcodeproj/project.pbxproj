@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		04BCD83526A07ED10084BDC2 /* TestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BCD83326A07ED10084BDC2 /* TestClass.h */; };
 		04BCD83626A07ED10084BDC2 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCD83426A07ED10084BDC2 /* TestClass.m */; };
+		04BCD83D26A086460084BDC2 /* DogModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BCD83B26A086460084BDC2 /* DogModel.h */; };
+		04BCD83E26A086460084BDC2 /* DogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCD83C26A086460084BDC2 /* DogModel.m */; };
 		0AF0DFD34CBB51A70B355AC13C6449D8 /* Pods-codeRepo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 972C37991EFE66651F8091DC353EDF22 /* Pods-codeRepo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20A0CC4A40D50729F3B10DDB95B95138 /* Pods-codeRepo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC91664BE0D6DA1162FF156D0224B91E /* Pods-codeRepo_Example-dummy.m */; };
 		6C54E15909D844255B032BBB8F44898B /* Pods-codeRepo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6929B6D5B28ACF4EBE9E615E6E51D298 /* Pods-codeRepo_Tests-dummy.m */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		04BCD83326A07ED10084BDC2 /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		04BCD83426A07ED10084BDC2 /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		04BCD83B26A086460084BDC2 /* DogModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DogModel.h; path = codeRepo/Classes/DogModel.h; sourceTree = "<group>"; };
+		04BCD83C26A086460084BDC2 /* DogModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DogModel.m; path = codeRepo/Classes/DogModel.m; sourceTree = "<group>"; };
 		09A7D6AA9529BC9E24FAFF8A0D4F236F /* codeRepo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = codeRepo.modulemap; sourceTree = "<group>"; };
 		0B705848A1D9F5776EB251E1BD21AAFB /* Pods-codeRepo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-codeRepo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0CF1769B53C899B9A5D887DCD0813EB0 /* codeRepo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "codeRepo-prefix.pch"; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 		30B6E9DDADAA573DED30A8F3E7709B8B /* codeRepo */ = {
 			isa = PBXGroup;
 			children = (
+				04BCD83B26A086460084BDC2 /* DogModel.h */,
+				04BCD83C26A086460084BDC2 /* DogModel.m */,
 				04BCD83226A07EBB0084BDC2 /* Class */,
 				D5930F31C5293D4C043138F76C243222 /* ReplaceMe.m */,
 				7A248373BF3E22A49EA760C70BAA77D0 /* Pod */,
@@ -253,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDBF2D441A244BFCD408FE105782C38B /* codeRepo-umbrella.h in Headers */,
+				04BCD83D26A086460084BDC2 /* DogModel.h in Headers */,
 				04BCD83526A07ED10084BDC2 /* TestClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BCD83E26A086460084BDC2 /* DogModel.m in Sources */,
 				04BCD83626A07ED10084BDC2 /* TestClass.m in Sources */,
 				BF437E28BF7908EF77DF4B3569EA678E /* codeRepo-dummy.m in Sources */,
 				D29F43A01ED86CC32955CD2A3EA90081 /* ReplaceMe.m in Sources */,
@@ -567,6 +575,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 0.1.0;
 				MODULEMAP_FILE = "Target Support Files/Pods-codeRepo_Example/Pods-codeRepo_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -599,6 +608,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 0.1.0;
 				MODULEMAP_FILE = "Target Support Files/Pods-codeRepo_Tests/Pods-codeRepo_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -631,6 +641,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 0.1.0;
 				MODULEMAP_FILE = "Target Support Files/Pods-codeRepo_Tests/Pods-codeRepo_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -664,6 +675,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 0.1.0;
 				MODULEMAP_FILE = "Target Support Files/Pods-codeRepo_Example/Pods-codeRepo_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
