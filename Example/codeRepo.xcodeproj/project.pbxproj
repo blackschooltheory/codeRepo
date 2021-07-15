@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0A27C68601D79ABDCE576D41 /* Pods-codeRepo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeRepo_Tests.release.xcconfig"; path = "Target Support Files/Pods-codeRepo_Tests/Pods-codeRepo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0C8749FDB5299364EEE3862D /* codeRepo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = codeRepo.podspec; path = ../codeRepo.podspec; sourceTree = "<group>"; };
+		0C8749FDB5299364EEE3862D /* codeRepo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = codeRepo.podspec; path = ../codeRepo.podspec; sourceTree = "<group>"; };
 		4BD66A480945694C825F3013 /* Pods_codeRepo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codeRepo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA7A16731E557079479C406 /* Pods_codeRepo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codeRepo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* codeRepo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codeRepo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,10 +63,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89758C8D59092BAB33C7A52F /* Pods-codeRepo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeRepo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-codeRepo_Tests/Pods-codeRepo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C4224D5C14FDCD6734C14AF2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C4224D5C14FDCD6734C14AF2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CB1AE7050D076778403A8B01 /* Pods-codeRepo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeRepo_Example.release.xcconfig"; path = "Target Support Files/Pods-codeRepo_Example/Pods-codeRepo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FBE22967AA94CBEEA3327633 /* Pods-codeRepo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeRepo_Example.debug.xcconfig"; path = "Target Support Files/Pods-codeRepo_Example/Pods-codeRepo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FD02D0C79AFC25EEF489CC47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FD02D0C79AFC25EEF489CC47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				89758C8D59092BAB33C7A52F /* Pods-codeRepo_Tests.debug.xcconfig */,
 				0A27C68601D79ABDCE576D41 /* Pods-codeRepo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "codeRepo/codeRepo-Prefix.pch";
 				INFOPLIST_FILE = "codeRepo/codeRepo-Info.plist";
+				MARKETING_VERSION = 0.1.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "codeRepo/codeRepo-Prefix.pch";
 				INFOPLIST_FILE = "codeRepo/codeRepo-Info.plist";
+				MARKETING_VERSION = 0.1.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
