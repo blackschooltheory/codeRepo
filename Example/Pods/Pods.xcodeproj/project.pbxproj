@@ -18,7 +18,6 @@
 		A32C32980E321344CC86E72D6ADFA503 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A38C6EC4BF8A84F63E1A994E892DCC76 /* Pods-codeRepo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC06CEE89BD18294D4FE64E562FC8B7E /* Pods-codeRepo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF437E28BF7908EF77DF4B3569EA678E /* codeRepo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B44E8CE864B57A05CAD920988D3EAFC /* codeRepo-dummy.m */; };
-		D29F43A01ED86CC32955CD2A3EA90081 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D5930F31C5293D4C043138F76C243222 /* ReplaceMe.m */; };
 		DDBF2D441A244BFCD408FE105782C38B /* codeRepo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7581AFF40850430116EBAE30F25801E0 /* codeRepo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F041554ED81C7A47DAEE120ED0E2429C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -71,7 +70,6 @@
 		CC91664BE0D6DA1162FF156D0224B91E /* Pods-codeRepo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-codeRepo_Example-dummy.m"; sourceTree = "<group>"; };
 		CDFD6D1968A91D527EE53ED4E15C5EAC /* Pods-codeRepo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-codeRepo_Example-Info.plist"; sourceTree = "<group>"; };
 		D57E4936508D84E22080BDD86D90CBAE /* Pods-codeRepo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-codeRepo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D5930F31C5293D4C043138F76C243222 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = codeRepo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		D845431E40423528BEF3511A5A14C422 /* Pods_codeRepo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codeRepo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC06CEE89BD18294D4FE64E562FC8B7E /* Pods-codeRepo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-codeRepo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E1CC946D127D002331078B531C77678D /* Pods_codeRepo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codeRepo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				04BCD83F26A089D30084BDC2 /* Classes */,
-				D5930F31C5293D4C043138F76C243222 /* ReplaceMe.m */,
 				7A248373BF3E22A49EA760C70BAA77D0 /* Pod */,
 				41503AA9A9F536198EFB1C45B925DD6D /* Support Files */,
 			);
@@ -408,7 +405,6 @@
 				04BCD83E26A086460084BDC2 /* DogModel.m in Sources */,
 				04BCD83626A07ED10084BDC2 /* TestClass.m in Sources */,
 				BF437E28BF7908EF77DF4B3569EA678E /* codeRepo-dummy.m in Sources */,
-				D29F43A01ED86CC32955CD2A3EA90081 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
