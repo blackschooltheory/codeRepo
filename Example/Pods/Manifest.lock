@@ -1,0 +1,16 @@
+PODS:
+  - codeRepo (0.1.0)
+
+DEPENDENCIES:
+  - codeRepo (from `../`)
+
+EXTERNAL SOURCES:
+  codeRepo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  codeRepo: b89aa817a4584eab4f0fb8879051dc56930f763b
+
+PODFILE CHECKSUM: 227463811cd5046b597486fb937835cf1102d2f8
+
+COCOAPODS: 1.10.1

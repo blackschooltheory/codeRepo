@@ -1,0 +1,6 @@
+framework module codeRepo {
+  umbrella header "codeRepo-umbrella.h"
+
+  export *
+  module * { export * }
+}
