@@ -43,8 +43,8 @@
 /* Begin PBXFileReference section */
 		04BCD83326A07ED10084BDC2 /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		04BCD83426A07ED10084BDC2 /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
-		04BCD83B26A086460084BDC2 /* DogModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DogModel.h; path = codeRepo/Classes/DogModel.h; sourceTree = "<group>"; };
-		04BCD83C26A086460084BDC2 /* DogModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DogModel.m; path = codeRepo/Classes/DogModel.m; sourceTree = "<group>"; };
+		04BCD83B26A086460084BDC2 /* DogModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogModel.h; sourceTree = "<group>"; };
+		04BCD83C26A086460084BDC2 /* DogModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogModel.m; sourceTree = "<group>"; };
 		09A7D6AA9529BC9E24FAFF8A0D4F236F /* codeRepo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = codeRepo.modulemap; sourceTree = "<group>"; };
 		0B705848A1D9F5776EB251E1BD21AAFB /* Pods-codeRepo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-codeRepo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0CF1769B53C899B9A5D887DCD0813EB0 /* codeRepo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "codeRepo-prefix.pch"; sourceTree = "<group>"; };
@@ -117,12 +117,20 @@
 			path = Class;
 			sourceTree = "<group>";
 		};
+		04BCD83F26A089D30084BDC2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04BCD83226A07EBB0084BDC2 /* Class */,
+				04BCD83B26A086460084BDC2 /* DogModel.h */,
+				04BCD83C26A086460084BDC2 /* DogModel.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		30B6E9DDADAA573DED30A8F3E7709B8B /* codeRepo */ = {
 			isa = PBXGroup;
 			children = (
-				04BCD83B26A086460084BDC2 /* DogModel.h */,
-				04BCD83C26A086460084BDC2 /* DogModel.m */,
-				04BCD83226A07EBB0084BDC2 /* Class */,
+				04BCD83F26A089D30084BDC2 /* Classes */,
 				D5930F31C5293D4C043138F76C243222 /* ReplaceMe.m */,
 				7A248373BF3E22A49EA760C70BAA77D0 /* Pod */,
 				41503AA9A9F536198EFB1C45B925DD6D /* Support Files */,
