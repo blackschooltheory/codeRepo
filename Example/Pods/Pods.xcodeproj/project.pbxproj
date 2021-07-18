@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043AF0EB26A424880011623C /* DLKProData.h in Headers */ = {isa = PBXBuildFile; fileRef = 043AF0E926A424880011623C /* DLKProData.h */; };
+		043AF0EC26A424880011623C /* DLKProData.m in Sources */ = {isa = PBXBuildFile; fileRef = 043AF0EA26A424880011623C /* DLKProData.m */; };
 		04BCD84A26A0FE390084BDC2 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 04BCD84726A0FE390084BDC2 /* .gitkeep */; };
 		04BCD84B26A0FE390084BDC2 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 04BCD84926A0FE390084BDC2 /* .gitkeep */; };
 		04BCD84E26A0FE660084BDC2 /* DlkGoodObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BCD84C26A0FE660084BDC2 /* DlkGoodObjc.h */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043AF0E926A424880011623C /* DLKProData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLKProData.h; sourceTree = "<group>"; };
+		043AF0EA26A424880011623C /* DLKProData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLKProData.m; sourceTree = "<group>"; };
 		04BCD84726A0FE390084BDC2 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		04BCD84926A0FE390084BDC2 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		04BCD84C26A0FE660084BDC2 /* DlkGoodObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DlkGoodObjc.h; sourceTree = "<group>"; };
@@ -106,9 +110,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043AF0E826A424610011623C /* DLKPod */ = {
+			isa = PBXGroup;
+			children = (
+				043AF0E926A424880011623C /* DLKProData.h */,
+				043AF0EA26A424880011623C /* DLKProData.m */,
+			);
+			path = DLKPod;
+			sourceTree = "<group>";
+		};
 		04BCD84626A0FE390084BDC2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				043AF0E826A424610011623C /* DLKPod */,
 				04BCD84726A0FE390084BDC2 /* .gitkeep */,
 				04BCD84C26A0FE660084BDC2 /* DlkGoodObjc.h */,
 				04BCD84D26A0FE660084BDC2 /* DlkGoodObjc.m */,
@@ -266,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDBF2D441A244BFCD408FE105782C38B /* codeRepo-umbrella.h in Headers */,
+				043AF0EB26A424880011623C /* DLKProData.h in Headers */,
 				04BCD84E26A0FE660084BDC2 /* DlkGoodObjc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +422,7 @@
 			files = (
 				04BCD84F26A0FE660084BDC2 /* DlkGoodObjc.m in Sources */,
 				BF437E28BF7908EF77DF4B3569EA678E /* codeRepo-dummy.m in Sources */,
+				043AF0EC26A424880011623C /* DLKProData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
